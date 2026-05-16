@@ -145,6 +145,7 @@ try:
         st.session_state.messages.append({"role": "user", "content": prompt})
         st.markdown(f'<div class="user-bubble">{prompt}</div>', unsafe_allow_html=True)
         
+        
 
         # Assistant Custom Response Container
         response_placeholder = st.empty()
